@@ -1,0 +1,205 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "account": "user123",
+      "username": "JohnDoe",
+      "password": "hashedpassword123",
+      "createdAt": "2023-10-29",
+      "avatar": "user123.jpg",
+      "thumb": 100,
+      "userRank": "Diamond",
+      "likePosition": "Top",
+      "likeHero": "Aatrox",
+      "valid": true,
+      "users": 1
+    },
+    {
+      "id": 2,
+      "account": "user456",
+      "username": "JaneSmith",
+      "password": "hashedpassword456",
+      "createdAt": "2023-10-30",
+      "avatar": "user456.jpg",
+      "thumb": 75,
+      "userRank": "Gold",
+      "likePosition": "Support",
+      "likeHero": "Thresh",
+      "valid": true
+    },
+    {
+      "id": 3,
+      "account": "user789",
+      "username": "MikeJohnson",
+      "password": "hashedpassword789",
+      "createdAt": "2023-10-31",
+      "avatar": "user789.jpg",
+      "thumb": 120,
+      "userRank": "Silver",
+      "likePosition": "Mid",
+      "likeHero": "Ahri",
+      "valid": true
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "userId": 1,
+      "commentedId": 2
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "commentedId": 1
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "commentedId": 1
+    }
+  ],
+  "friendLists": [
+   {
+      "id": 1,
+      "userId": 1,
+      "friendId": 2,
+      "status": 2
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "friendId": 3,
+      "status": 1
+    },
+   {
+      "id": 3,
+      "userId": 1,
+      "friendId": 3,
+      "status": 2
+    }
+  ],
+  "banLists":[ 
+     {
+      "id": 1,
+      "userId": 1,
+      "friendId": 2
+    },
+     {
+      "id": 2,
+      "userId": 2,
+      "friendId": 1
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "friendId": 3
+    }
+  ],
+  "teamHistorys":[ 
+    {
+      "id": 1,
+      "userId": 1,
+      "teamId": 1,
+      "createAt": "2023-10-29"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "teamId": 1,
+      "createAt": "2023-10-30"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "teamId": 2,
+      "createAt": "2023-10-31"
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "userId": 1,
+      "teamName": "Team A",
+      "playTime": "Weekends",
+      "rankLimt": "Platinum",
+      "teamNotice": "Looking for members",
+      "user1": 2,
+      "user2": 3,
+      "user3": 4,
+      "user4": 5,
+      "createAt": "2023-10-29"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "teamName": "Team B",
+      "playTime": "Weeknights",
+      "rankLimt": "Gold",
+      "teamNotice": "Casual gaming",
+      "user1": 1,
+      "user2": 3,
+      "user3": 4,
+      "user4": 5,
+      "createAt": "2023-10-30"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "teamName": "Team C",
+      "playTime": "Weekends",
+      "rankLimt": "Silver",
+      "teamNotice": "Competitive play",
+      "user1": 1,
+      "user2": 2,
+      "user3": 4,
+      "user4": 5,
+      "createAt": "2023-10-31"
+    }
+  ],
+  "messages": [
+  {
+      "id": 1,
+      "teamId": 1,
+      "userId": 2,
+      "createAt": "2023-10-29",
+      "messageText": "Hello, I'm interested in joining your team."
+    },
+    {
+      "id": 2,
+      "teamId": 1,
+      "userId": 3,
+      "createAt": "2023-10-30",
+      "messageText": "I'm a support main. Can I join your team?"
+    },
+  {
+      "id": 3,
+      "teamId": 2,
+      "userId": 1,
+      "createAt": "2023-10-31",
+      "messageText": "Let's practice together."
+    }
+  ],
+  "recommends": [
+  {
+      "id": 1,
+      "teamId": 1,
+      "userId": 1,
+      "recommendId": 2,
+      "status": 1
+    },
+    {
+      "id": 2,
+      "teamId": 2,
+      "userId": 3,
+      "recommendId": 1,
+      "status": 2
+    },
+    {
+      "id": 3,
+      "teamId": 3,
+      "userId": 1,
+      "recommendId": 2,
+      "status": 0
+    }
+  ]
+}
