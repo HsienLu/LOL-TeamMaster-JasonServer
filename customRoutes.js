@@ -3,10 +3,9 @@ const db = require("./db.json"); // 导入你的 JSON 数据
 const express = require("express");
 const router = express.Router();
 
-router.get("/teams/:id/members", (req, res) => {
-  const { id } = req.params.id;
-  console.log(id);
-  console.log(req.params);
+router.get("/teams/:teamId/members", (req, res) => {
+  const { teamId } = req.params;
+  console.log(teamId);
   const team = db.teams.find((team) => team.id === parseInt(teamId));
   console.log(team);
   if (!team) {
