@@ -107,3 +107,18 @@
 
 1. PK(primary key):主鍵，單張資料表的唯一值，確保每一筆資料的唯一性
 2. FK(Foreign key):外鍵，用來關聯其他資料的Id
+
+## 修改紀錄:
+
+2023/11/7
+
+1.新增查詢團隊會員路由
+修改的檔案放在 server.js
+2.啟動點變成
+```jsx
+node server.js
+```
+可以用nodemon
+```jsx
+nodemon server.js
+```

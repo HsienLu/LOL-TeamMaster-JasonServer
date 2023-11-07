@@ -17,6 +17,8 @@ server.use(jsonServerAuth);
 //   // Continue to JSON Server router
 //   next()
 // })
+
+
 //查詢隊伍成員的功能
 server.get('/teamsMember/:id', (req, res) => {
     
