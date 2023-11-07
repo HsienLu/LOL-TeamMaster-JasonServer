@@ -149,7 +149,7 @@
       "rankLimt": "Platinum",
       "teamNotice": "Looking for members",
       "createAt": "2023-10-29",
-      "teamMeerberId": [2, 3, 4, 5]
+      "teamMerberId": [2, 3, 4, 5]
     },
     {
       "id": 2,
@@ -159,7 +159,7 @@
       "rankLimt": "Gold",
       "teamNotice": "Casual gaming",
       "createAt": "2023-10-30",
-      "teamMeerberId": [ 4, 5]
+      "teamMerberId": [ 4, 5]
     },
     {
       "id": 3,
@@ -168,7 +168,7 @@
       "playTime": "Weekends",
       "rankLimt": "Silver",
       "createAt": "2023-10-31",
-      "teamMeerberId": [ 5]
+      "teamMerberId": [ 5]
     }
   ],
   "messages": [
