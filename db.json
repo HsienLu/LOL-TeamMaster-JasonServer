@@ -145,6 +145,7 @@
     {
       "id": 1,
       "userId": 1,
+      "teamMembers": [1, 2],
       "teamName": "Team A",
       "playTime": "Weekends",
       "rankLimt": "Platinum",
