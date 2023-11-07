@@ -6,17 +6,17 @@ const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 server.use(middlewares)
 server.use(jsonServerAuth);
-server.get('/echo', (req, res) => {
-    res.jsonp(req.query)
-  })
-  server.use(jsonServer.bodyParser)
-server.use((req, res, next) => {
-  if (req.method === 'POST') {
-    req.body.createdAt = Date.now()
-  }
-  // Continue to JSON Server router
-  next()
-})
+// server.get('/echo', (req, res) => {
+//     res.jsonp(req.query)
+//   })
+//   server.use(jsonServer.bodyParser)
+// server.use((req, res, next) => {
+//   if (req.method === 'POST') {
+//     req.body.createdAt = Date.now()
+//   }
+//   // Continue to JSON Server router
+//   next()
+// })
 //查詢隊伍成員的功能
 server.get('/teamsMember/:id', (req, res) => {
     
