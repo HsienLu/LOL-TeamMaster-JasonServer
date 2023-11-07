@@ -1,23 +1,23 @@
 const db = require("./db.json"); // 导入你的 JSON 数据
+const jsonServer = require("json-server");
+const server = jsonServer.create();
 
-const express = require("express");
-const router = express.Router();
 
-router.get("/teams/:teamId/members", (req, res) => {
+server.get("/teams/:teamId/members", (req, res) => {
+  const teamInfo = [];
   const { teamId } = req.params;
-  console.log(teamId);
   const team = db.teams.find((team) => team.id === parseInt(teamId));
-  console.log(team);
   if (!team) {
     return res.status(404).json({ error: "Team not found" });
   }
+  teamInfo.push(team);
 
-  const teamMembers = team.teamMembers.map((userId) =>
-    db.users.find((user) => user.id === userId)
-  );
+  team.teamMembers.forEach((userId) => {
+    teamInfo.push(db.users.find((user) => user.id === userId));
+  });
 
-  console.log("Team Members:", teamMembers);
-  res.json(teamMembers);
+  console.log("Team Members:", teamInfo);
+  res.status(200).json(teamInfo);
 });
 
-module.exports = router;
+module.exports = server;
