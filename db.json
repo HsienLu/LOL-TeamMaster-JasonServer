@@ -11,7 +11,8 @@
       "userRank": "Diamond",
       "likePosition": "Top",
       "likeHero": "Aatrox",
-      "valid": true
+      "valid": true,
+      "teamsId":[1,2]
     },
     {
       "id": 2,
@@ -144,7 +145,6 @@
   "teams": [
     {
       "id": 1,
-      "userId": 1,
       "teamName": "Team A",
       "playTime": "Weekends",
       "rankLimt": "Platinum",
