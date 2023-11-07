@@ -15,7 +15,7 @@ server.use((req, res, next) => {
   // Continue to JSON Server router
   next()
 })
-
+//查詢隊伍成員的功能
 server.get('/teamsMember/:id', (req, res) => {
     
     const teamId = req.params.id-1;
