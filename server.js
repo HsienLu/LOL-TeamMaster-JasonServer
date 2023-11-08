@@ -35,22 +35,17 @@ server.use(jsonServerAuth)//使用json-server-auth當中介層，簡單來說就
 //查詢隊伍成員的功能
 server.get('/teamsMember/:id', (req, res) => {
     
-    const teamId = req.params.id-1;
+    const teamId = req.params.id;
     let teamMembers =[]
     if (data.teams[teamId]) {
-        const teamMerberId=data.teams[teamId].teamMerberId
-        // console.log(teamMerberId)
-        
+        const team = data.teams.filter(item => item.id === parseInt(teamId))
+        const teamMerberId=team[0].teamMerberId
         teamMerberId.forEach((v)=>{
-            // console.log(v)
+            
             const teamMember =data.users.find((i)=>i.id === v)
             teamMembers.push(teamMember)
-            // let AAA=data.users.filter((i)=>{i.id===v})
-            
-            // console.log(AAA)
         })
-        // const teamMemberIds = data.teams;
-        console.log(teamMembers)
+        // console.log(teamMembers)
         res.status(200).json(teamMembers);
         
     } else {
