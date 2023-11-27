@@ -1,5 +1,6 @@
 # 資料表結構
 
+
 ## 會員中心
 
 ---
@@ -72,10 +73,7 @@
 | playTime | 遊戲時間 | string |  |  |
 | rankLimt | 牌位限定 | value |  |  |
 | teamNotice | 公告 | string |  |  |
-| user1 | 隊員1 | vlaue |  | FK(userd) |
-| user2 | 隊員2 | vlaue |  | FK(userId) |
-| user3 | 隊員3 | vlaue |  | FK(userId) |
-| user4 | 隊員4 | vlaue |  | FK(userId) |
+| teamMeerberId | 隊員 | vlaue |  | FK(userd) |
 | createAt | 創建時間 | string |  |  |
 
 ## 留言板 messages
@@ -104,7 +102,22 @@
 
 
 
-備註
+備註:
 
 1. PK(primary key):主鍵，單張資料表的唯一值，確保每一筆資料的唯一性
 2. FK(Foreign key):外鍵，用來關聯其他資料的Id
+
+## 修改紀錄:
+
+2023/11/7
+
+1.新增查詢團隊會員路由
+修改的檔案放在 server.js
+2.啟動點變成
+```jsx
+node server.js
+```
+可以用nodemon
+```jsx
+nodemon server.js
+```
