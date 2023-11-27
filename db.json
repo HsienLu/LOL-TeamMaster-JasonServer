@@ -272,7 +272,8 @@
       "likePosition": "Top",
       "likeHero": "暴風之劍",
       "valid": true
-    }, {
+    },
+    {
       "id": 22,
       "account": "user014",
       "username": "烈焰守護者",
@@ -421,7 +422,7 @@
     }
   ],
   "friendLists": [
-   {
+    {
       "id": 1,
       "userId": 1,
       "friendId": 2,
@@ -433,20 +434,20 @@
       "friendId": 3,
       "status": 1
     },
-   {
+    {
       "id": 3,
       "userId": 1,
       "friendId": 3,
       "status": 2
     }
   ],
-  "banLists":[ 
-     {
+  "banLists": [
+    {
       "id": 1,
       "userId": 1,
       "friendId": 2
     },
-     {
+    {
       "id": 2,
       "userId": 2,
       "friendId": 1
@@ -457,7 +458,7 @@
       "friendId": 3
     }
   ],
-  "teamHistorys":[ 
+  "teamHistorys": [
     {
       "id": 1,
       "userId": 1,
@@ -485,7 +486,12 @@
       "rankLimt": "Platinum",
       "teamNotice": "Looking for members",
       "createAt": "2023-10-29",
-      "teamMerberId": [2, 3, 4, 5]
+      "teamMerberId": [
+        2,
+        3,
+        4,
+        5
+      ]
     },
     {
       "id": 2,
@@ -495,7 +501,10 @@
       "rankLimt": "Gold",
       "teamNotice": "Casual gaming",
       "createAt": "2023-10-30",
-      "teamMerberId": [ 4, 5]
+      "teamMerberId": [
+        4,
+        5
+      ]
     },
     {
       "id": 3,
@@ -504,11 +513,13 @@
       "playTime": "Weekends",
       "rankLimt": "Silver",
       "createAt": "2023-10-31",
-      "teamMerberId": [ 5]
+      "teamMerberId": [
+        5
+      ]
     }
   ],
   "messages": [
-  {
+    {
       "id": 1,
       "teamId": 1,
       "userId": 2,
@@ -522,7 +533,7 @@
       "createAt": "2023-10-30",
       "messageText": "I'm a support main. Can I join your team?"
     },
-  {
+    {
       "id": 3,
       "teamId": 2,
       "userId": 1,
@@ -531,7 +542,7 @@
     }
   ],
   "recommends": [
-  {
+    {
       "id": 1,
       "teamId": 1,
       "userId": 1,
