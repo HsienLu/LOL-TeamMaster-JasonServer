@@ -10,7 +10,7 @@
 | 欄位 | 意義 | 型別 | PK | FK |
 | --- | --- | --- | --- | --- |
 | id | 會員ID | value | PK (AI) |  |
-| account | 會員帳號 | string |  |  |
+| email | 會員帳號 | string |  |  |
 | username | 使用者名稱 | string |  |  |
 | password | 會員密碼 | string |  |  |
 | createdAt | 創建時間/更新時間 | string |  |  |
