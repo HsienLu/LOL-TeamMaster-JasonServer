@@ -4,7 +4,7 @@ const jsonServerAuth = require('json-server-auth'); //使用json-server-auth套�
 const data = require('./db.json'); //引入資料表(我們自己用的)
 const server = jsonServer.create() //jsonServer有一個函式直接幫我們創express的伺服器
 const router = jsonServer.router('db.json') //使用資料來源當作路由(json-server用的)
-server.db = router.db
+server.db = router.db //綁定 json-server 與 auth 的 db.json
 const middlewares = jsonServer.defaults()
 /* 是 jsonServer.defaults()提供的跨域、唯獨...的設定方法，用於設置中間件
 ，這些中間件通常用於增加功能或修改 JSON Server 的行為。以下是它的選項說明：
