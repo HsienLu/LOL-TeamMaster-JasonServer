@@ -12,7 +12,8 @@ logger: 這個選項用於啟用或禁用 JSON Server 的日誌記錄中間件�
 bodyParser: 這個選項用於啟用或禁用 JSON Server 的 body-parser 中間件，該中間件用於解析請求主體中的 JSON 數據。默認值為 true，表示啟用 body-parser 中間件。如果設置為 false，則將禁用它。
 noCors: 這個選項用於禁用 CORS（跨來源資源共享）。默認值為 false，表示不禁用 CORS。如果設置為 true，則將禁用 CORS，這可能對一些跨來源請求的情況有用。
 readOnly: 這個選項用於設置 JSON Server 僅接受 GET 請求，也就是只允許讀取操作。默認值為 false，表示允許其他類型的請求（如 POST、PUT、DELETE）。如果設置為 true，則僅接受 GET 請求，並禁止寫入操作。 */
-
+// /!\ Bind the router db to the app
+server.db = router.db
 //這裡是中介層
 server.use(middlewares)//把json-server當作中介層塞進去，簡單來說就是執行json-server套件
 server.use(jsonServerAuth)//使用json-server-auth當中介層，簡單來說就是執行json-server-auth套件
