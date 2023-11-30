@@ -480,13 +480,14 @@
   ],
   "teams": [
     {
-      "id": 1,
-      "teamName": "Team A",
-      "playTime": "Weekends",
+      "id": 0,
+      "userId":1,
+      "teamName": "TeamA",
+      "playTime": "2023/12/21 20:00",
       "rankLimt": "Platinum",
       "teamNotice": "Looking for members",
       "createAt": "2023-10-29",
-      "teamMerberId": [
+      "teamMerberId": [0,
         2,
         3,
         4,
@@ -494,27 +495,41 @@
       ]
     },
     {
-      "id": 2,
+      "id": 1,
       "userId": 2,
       "teamName": "Team B",
-      "playTime": "Weeknights",
+      "playTime": "2023/12/22 20:00",
       "rankLimt": "Gold",
       "teamNotice": "Casual gaming",
       "createAt": "2023-10-30",
       "teamMerberId": [
-        4,
-        5
+        2,
+        3,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "teamName": "Team C",
+      "playTime": "2023/12/24 20:00",
+      "rankLimt": "Silver",
+      "createAt": "2023-10-31",
+      "teamMerberId": [
+       3,0,4,0,5
       ]
     },
     {
       "id": 3,
       "userId": 3,
       "teamName": "Team C",
-      "playTime": "Weekends",
+      "playTime": "2023/12/24 20:00",
       "rankLimt": "Silver",
       "createAt": "2023-10-31",
       "teamMerberId": [
-        5
+        1,2,3,4,5
       ]
     }
   ],
