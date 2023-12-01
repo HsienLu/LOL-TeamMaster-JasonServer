@@ -55,7 +55,31 @@ server.get('/teamsMember/:id', (req, res) => {
     }
 
   });
+//依照讚數查詢
+server.get('/teamsThumb', (req, res, next) => {
+  let sort = req.query._sort;
+
+ let teamsThumb = data.teams.map(team => {
+    let thumb=data.users.find((v)=>{return v.id === team.userId}).thumb
+    return {
+      ...team,
+      thumb
+    };
+  });
+      let sortedTeams = []
+      if(sort === "desc"){
+        sortedTeams=teamsThumb.sort((a, b) => b.thumb - a.thumb);
+      }else if(sort === "asc"){
+        sortedTeams=teamsThumb.sort((a, b) => a.thumb - b.thumb);
+      }else{
+        sortedTeams=teamsThumb
+      }
+     
+  res.status(200).json(sortedTeams)
+
+});
   
+
 server.use(router)//連接josn-server和express的關鍵詞
 
 //開啟port這裡是3000
