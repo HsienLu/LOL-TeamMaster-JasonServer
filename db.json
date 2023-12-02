@@ -402,6 +402,19 @@
       "likePosition": "Mid",
       "likeHero": "amumu",
       "valid": true
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$pvH6TRTRil5vfaRig4YqquEfmo6YcTGInzU99jCCIQ2kT2nuzOpPO",
+      "username": "aaa",
+      "createdAt": 1701498929716,
+      "avatar": "img-avatar-01",
+      "thumb": 0,
+      "userRank": "Bronze",
+      "likePosition": "MID",
+      "likeHero": "艾希",
+      "valid": true,
+      "id": 32
     }
   ],
   "comments": [
@@ -481,13 +494,18 @@
   "teams": [
     {
       "id": 0,
-      "userId":1,
+      "userId": 2,
       "teamName": "TeamA",
       "playTime": "2023-12-17 11:20",
       "rankLimt": "Platinum",
-      "teamNotice": "Looking for members",
+
       "createAt": "2023-10-29",
-      "teamMerberId": [0,
+      "teamNotice": [
+        "1.不要有會說髒話的加入",
+        "2.最好有上大師"
+      ],
+      "teamMerberId": [
+        0,
         2,
         3,
         4,
@@ -500,7 +518,13 @@
       "teamName": "Team B",
       "playTime": "2023-12-18 19:00",
       "rankLimt": "Gold",
-      "teamNotice": ["1.不要有會說髒話的加入","2.最好有上大師","3.最近有玩超過10場牌位","4.演員地雷勿進","5.能對其他線路有理解尤佳"],
+      "teamNotice": [
+        "1.不要有會說髒話的加入",
+        "2.最好有上大師",
+        "3.最近有玩超過10場牌位",
+        "4.演員地雷勿進",
+        "5.能對其他線路有理解尤佳"
+      ],
       "createAt": "2023-10-30",
       "teamMerberId": [
         5,
@@ -517,8 +541,18 @@
       "playTime": "2023-12-19 21:00",
       "rankLimt": "Silver",
       "createAt": "2023-10-31",
+      "teamNotice": [
+        "1.不要有會說髒話的加入",
+        "2.最好有上大師",
+        "3.最近有玩超過10場牌位",
+        "4.演員地雷勿進"
+      ],
       "teamMerberId": [
-       3,0,4,0,5
+        3,
+        0,
+        4,
+        0,
+        5
       ]
     },
     {
@@ -528,8 +562,17 @@
       "playTime": "2023-12-20 15:00",
       "rankLimt": "Silver",
       "createAt": "2023-10-31",
+      "teamNotice": [
+        "1.不要有會說髒話的加入",
+        "2.最好有上大師",
+        "3.最近有玩超過10場牌位"
+      ],
       "teamMerberId": [
-        1,2,3,4,5
+        1,
+        2,
+        3,
+        4,
+        5
       ]
     }
   ],
