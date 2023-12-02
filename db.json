@@ -500,14 +500,14 @@
       "teamName": "Team B",
       "playTime": "2023-12-18 19:00",
       "rankLimt": "Gold",
-      "teamNotice": "Casual gaming",
+      "teamNotice": ["1.不要有會說髒話的加入","2.最好有上大師","3.最近有玩超過10場牌位","4.演員地雷勿進","5.能對其他線路有理解尤佳"],
       "createAt": "2023-10-30",
       "teamMerberId": [
-        2,
-        3,
-        0,
-        0,
-        0
+        5,
+        6,
+        7,
+        8,
+        9
       ]
     },
     {
