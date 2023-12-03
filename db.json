@@ -411,8 +411,8 @@
       "avatar": "img-avatar-01",
       "thumb": 0,
       "userRank": "Bronze",
-      "likePosition": "MID",
-      "likeHero": "艾希",
+      "likePosition": "TOP",
+      "likeHero": "vex",
       "valid": true,
       "id": 32
     }
@@ -498,14 +498,13 @@
       "teamName": "TeamA",
       "playTime": "2023-12-17 11:20",
       "rankLimt": "Platinum",
-
       "createAt": "2023-10-29",
       "teamNotice": [
         "1.不要有會說髒話的加入",
         "2.最好有上大師"
       ],
       "teamMerberId": [
-        0,
+        32,
         2,
         3,
         4,
@@ -572,6 +571,27 @@
         2,
         3,
         4,
+        5
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "teamName": "Team C",
+      "playTime": "2023-12-19 21:00",
+      "rankLimt": "Silver",
+      "createAt": "2023-10-31",
+      "teamNotice": [
+        "1.不要有會說髒話的加入",
+        "2.最好有上大師",
+        "3.最近有玩超過10場牌位",
+        "4.演員地雷勿進"
+      ],
+      "teamMerberId": [
+        3,
+        0,
+        4,
+        0,
         5
       ]
     }
