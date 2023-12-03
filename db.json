@@ -432,6 +432,16 @@
       "id": 3,
       "userId": 3,
       "commentedId": 1
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "commentedId": 3
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "commentedId": 2
     }
   ],
   "friendLists": [
@@ -452,6 +462,12 @@
       "userId": 1,
       "friendId": 3,
       "status": 2
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "friendId": 4,
+      "status": 2
     }
   ],
   "banLists": [
@@ -467,6 +483,16 @@
     },
     {
       "id": 3,
+      "userId": 1,
+      "friendId": 3
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "friendId": 1
+    },
+    {
+      "id": 5,
       "userId": 1,
       "friendId": 3
     }
@@ -489,6 +515,12 @@
       "userId": 3,
       "teamId": 2,
       "createAt": "2023-10-31"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "teamId": 3,
+      "createAt": "2023-11-11"
     }
   ],
   "teams": [
