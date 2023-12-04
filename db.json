@@ -9,7 +9,7 @@
       "avatar": "avatar007",
       "thumb": 100,
       "userRank": "Diamond",
-      "likePosition": "Top",
+      "likePosition": "TOP",
       "likeHero": "aatrox",
       "valid": true
     },
@@ -22,7 +22,7 @@
       "avatar": "avatar009",
       "thumb": 75,
       "userRank": "Gold",
-      "likePosition": "Jungle",
+      "likePosition": "JG",
       "likeHero": "amumu",
       "valid": true
     },
@@ -35,7 +35,7 @@
       "avatar": "avatar003",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Mid",
+      "likePosition": "MID",
       "likeHero": "ashe",
       "valid": true
     },
@@ -48,7 +48,7 @@
       "avatar": "avatar011",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Bot",
+      "likePosition": "AD",
       "likeHero": "galio",
       "valid": true
     },
@@ -61,7 +61,7 @@
       "avatar": "avatar005",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Support",
+      "likePosition": "SUP",
       "likeHero": "gnar",
       "valid": true
     },
@@ -74,7 +74,7 @@
       "avatar": "avatar006",
       "thumb": 10,
       "userRank": "Gold",
-      "likePosition": "Top",
+      "likePosition": "TOP",
       "likeHero": "lulu",
       "valid": true
     },
@@ -87,7 +87,7 @@
       "avatar": "avatar007",
       "thumb": 110,
       "userRank": "Emerald",
-      "likePosition": "Jungle",
+      "likePosition": "JG",
       "likeHero": "teemo",
       "valid": true
     },
@@ -100,7 +100,7 @@
       "avatar": "avatar008",
       "thumb": 20,
       "userRank": "Grandmaster",
-      "likePosition": "Mid",
+      "likePosition": "MID",
       "likeHero": "vex",
       "valid": true
     },
@@ -113,7 +113,7 @@
       "avatar": "avatar009",
       "thumb": 11,
       "userRank": "Silver",
-      "likePosition": "Bot",
+      "likePosition": "AD",
       "likeHero": "yuumi",
       "valid": true
     },
@@ -126,7 +126,7 @@
       "avatar": "avatar010",
       "thumb": 13,
       "userRank": "Silver",
-      "likePosition": "Support",
+      "likePosition": "SUP",
       "likeHero": "zoe",
       "valid": true
     },
@@ -139,7 +139,7 @@
       "avatar": "avatar011",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Top",
+      "likePosition": "TOP",
       "likeHero": "aatrox",
       "valid": true
     },
@@ -152,7 +152,7 @@
       "avatar": "avatar012",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Jungle",
+      "likePosition": "JG",
       "likeHero": "amumu",
       "valid": true
     },
@@ -165,7 +165,7 @@
       "avatar": "avatar013",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Mid",
+      "likePosition": "MID",
       "likeHero": "ashe",
       "valid": true
     },
@@ -178,7 +178,7 @@
       "avatar": "avatar014",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Bot",
+      "likePosition": "AD",
       "likeHero": "galio",
       "valid": true
     },
@@ -191,7 +191,7 @@
       "avatar": "avatar007",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Support",
+      "likePosition": "SUP",
       "likeHero": "gnar",
       "valid": true
     },
@@ -204,7 +204,7 @@
       "avatar": "avatar008",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Top",
+      "likePosition": "TOP",
       "likeHero": "lulu",
       "valid": true
     },
@@ -217,7 +217,7 @@
       "avatar": "avatar009",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Jungle",
+      "likePosition": "JG",
       "likeHero": "teemo",
       "valid": true
     },
@@ -230,7 +230,7 @@
       "avatar": "avatar010",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Mid",
+      "likePosition": "MID",
       "likeHero": "vex",
       "valid": true
     },
@@ -243,7 +243,7 @@
       "avatar": "avatar011",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Bot",
+      "likePosition": "AD",
       "likeHero": "yuumi",
       "valid": true
     },
@@ -256,7 +256,7 @@
       "avatar": "avatar012",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Support",
+      "likePosition": "SUP",
       "likeHero": "zoe",
       "valid": true
     },
@@ -269,7 +269,7 @@
       "avatar": "avatar013",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Top",
+      "likePosition": "TOP",
       "likeHero": "aatrox",
       "valid": true
     },
@@ -282,7 +282,7 @@
       "avatar": "avatar014",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Bot",
+      "likePosition": "AD",
       "likeHero": "amumu",
       "valid": true
     },
@@ -295,7 +295,7 @@
       "avatar": "avatar015",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Support",
+      "likePosition": "SUP",
       "likeHero": "ashe",
       "valid": true
     },
@@ -308,7 +308,7 @@
       "avatar": "avatar013",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Top",
+      "likePosition": "TOP",
       "likeHero": "galio",
       "valid": true
     },
@@ -321,7 +321,7 @@
       "avatar": "avatar012",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Jungle",
+      "likePosition": "JG",
       "likeHero": "gnar",
       "valid": true
     },
@@ -334,7 +334,7 @@
       "avatar": "avatar011",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Mid",
+      "likePosition": "MID",
       "likeHero": "lulu",
       "valid": true
     },
@@ -347,7 +347,7 @@
       "avatar": "avatar010",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Bot",
+      "likePosition": "AD",
       "likeHero": "teemo",
       "valid": true
     },
@@ -360,7 +360,7 @@
       "avatar": "avatar009",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Support",
+      "likePosition": "SUP",
       "likeHero": "vex",
       "valid": true
     },
@@ -373,7 +373,7 @@
       "avatar": "avatar008",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Top",
+      "likePosition": "TOP",
       "likeHero": "yuumi",
       "valid": true
     },
@@ -386,7 +386,7 @@
       "avatar": "avatar007",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Jungle",
+      "likePosition": "JG",
       "likeHero": "zoe",
       "valid": true
     },
@@ -399,7 +399,7 @@
       "avatar": "avatar006",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Mid",
+      "likePosition": "MID",
       "likeHero": "amumu",
       "valid": true
     },
@@ -412,7 +412,7 @@
       "thumb": 0,
       "userRank": "Bronze",
       "likePosition": "MID",
-      "likeHero": "艾希",
+      "likeHero": "ashe",
       "valid": true,
       "id": 32
     }
@@ -501,25 +501,25 @@
     {
       "id": 1,
       "userId": 1,
-      "teamId": 1,
+      "teaMID": 1,
       "createAt": "2023-10-29"
     },
     {
       "id": 2,
       "userId": 2,
-      "teamId": 1,
+      "teaMID": 1,
       "createAt": "2023-10-30"
     },
     {
       "id": 3,
       "userId": 3,
-      "teamId": 2,
+      "teaMID": 2,
       "createAt": "2023-10-31"
     },
     {
       "id": 4,
       "userId": 4,
-      "teamId": 3,
+      "teaMID": 3,
       "createAt": "2023-11-11"
     }
   ],
@@ -611,21 +611,21 @@
   "messages": [
     {
       "id": 1,
-      "teamId": 1,
+      "teaMID": 1,
       "userId": 2,
       "createAt": "2023-10-29",
       "messageText": "Hello, I'm interested in joining your team."
     },
     {
       "id": 2,
-      "teamId": 1,
+      "teaMID": 1,
       "userId": 3,
       "createAt": "2023-10-30",
-      "messageText": "I'm a support main. Can I join your team?"
+      "messageText": "I'm a Support main. Can I join your team?"
     },
     {
       "id": 3,
-      "teamId": 2,
+      "teaMID": 2,
       "userId": 1,
       "createAt": "2023-10-31",
       "messageText": "Let's practice together."
@@ -634,21 +634,21 @@
   "recommends": [
     {
       "id": 1,
-      "teamId": 1,
+      "teaMID": 1,
       "userId": 1,
       "recommendId": 2,
       "status": 1
     },
     {
       "id": 2,
-      "teamId": 2,
+      "teaMID": 2,
       "userId": 3,
       "recommendId": 1,
       "status": 2
     },
     {
       "id": 3,
-      "teamId": 3,
+      "teaMID": 3,
       "userId": 1,
       "recommendId": 2,
       "status": 0
