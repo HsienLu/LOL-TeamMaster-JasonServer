@@ -408,11 +408,11 @@
       "password": "$2a$10$pvH6TRTRil5vfaRig4YqquEfmo6YcTGInzU99jCCIQ2kT2nuzOpPO",
       "username": "aaa",
       "createdAt": 1701498929716,
-      "avatar": "img-avatar-01",
+      "avatar": "img-avatar-05",
       "thumb": 0,
-      "userRank": "Bronze",
-      "likePosition": "MID",
-      "likeHero": "ashe",
+      "userRank": "Master",
+      "likePosition": "JG",
+      "likeHero": "aatrox",
       "valid": true,
       "id": 32
     }
@@ -468,6 +468,18 @@
       "userId": 4,
       "friendId": 5,
       "status": 2
+    },
+    {
+      "userId": 32,
+      "friendId": 2,
+      "status": 1,
+      "id": 5
+    },
+    {
+      "userId": 32,
+      "friendId": 5,
+      "status": 1,
+      "id": 6
     }
   ],
   "banLists": [
@@ -501,25 +513,25 @@
     {
       "id": 1,
       "userId": 1,
-      "teaMID": 1,
+      "teamId": 1,
       "createAt": "2023-10-29"
     },
     {
       "id": 2,
       "userId": 2,
-      "teaMID": 1,
+      "teamId": 1,
       "createAt": "2023-10-30"
     },
     {
       "id": 3,
       "userId": 3,
-      "teaMID": 2,
+      "teamId": 2,
       "createAt": "2023-10-31"
     },
     {
       "id": 4,
       "userId": 4,
-      "teaMID": 3,
+      "teamId": 3,
       "createAt": "2023-11-11"
     }
   ],
@@ -530,7 +542,6 @@
       "teamName": "TeamA",
       "playTime": "2023-12-17 11:20",
       "rankLimt": "Platinum",
-
       "createAt": "2023-10-29",
       "teamNotice": [
         "1.不要有會說髒話的加入",
@@ -580,7 +591,7 @@
         "4.演員地雷勿進"
       ],
       "teamMerberId": [
-        3,
+        32,
         0,
         4,
         0,
@@ -611,21 +622,21 @@
   "messages": [
     {
       "id": 1,
-      "teaMID": 1,
+      "teamId": 1,
       "userId": 2,
       "createAt": "2023-10-29",
       "messageText": "Hello, I'm interested in joining your team."
     },
     {
       "id": 2,
-      "teaMID": 1,
+      "teamId": 1,
       "userId": 3,
       "createAt": "2023-10-30",
       "messageText": "I'm a Support main. Can I join your team?"
     },
     {
       "id": 3,
-      "teaMID": 2,
+      "teamId": 2,
       "userId": 1,
       "createAt": "2023-10-31",
       "messageText": "Let's practice together."
@@ -634,21 +645,21 @@
   "recommends": [
     {
       "id": 1,
-      "teaMID": 1,
+      "teamId": 1,
       "userId": 1,
       "recommendId": 2,
       "status": 1
     },
     {
       "id": 2,
-      "teaMID": 2,
+      "teamId": 2,
       "userId": 3,
       "recommendId": 1,
       "status": 2
     },
     {
       "id": 3,
-      "teaMID": 3,
+      "teamId": 3,
       "userId": 1,
       "recommendId": 2,
       "status": 0
