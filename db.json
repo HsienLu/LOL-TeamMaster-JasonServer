@@ -9,7 +9,7 @@
       "avatar": "avatar007",
       "thumb": 100,
       "userRank": "Diamond",
-      "likePosition": "Top",
+      "likePosition": "TOP",
       "likeHero": "aatrox",
       "valid": true
     },
@@ -230,7 +230,7 @@
       "avatar": "avatar010",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "Mid",
+      "likePosition": "MID",
       "likeHero": "vex",
       "valid": true
     },
@@ -282,7 +282,9 @@
       "avatar": "avatar014",
       "thumb": 120,
       "userRank": "Silver",
+
       "likePosition": "JG",
+
       "likeHero": "amumu",
       "valid": true
     },
@@ -295,7 +297,9 @@
       "avatar": "avatar015",
       "thumb": 120,
       "userRank": "Silver",
+
       "likePosition": "MID",
+
       "likeHero": "ashe",
       "valid": true
     },
@@ -308,7 +312,9 @@
       "avatar": "avatar013",
       "thumb": 120,
       "userRank": "Silver",
+
       "likePosition": "AD",
+
       "likeHero": "galio",
       "valid": true
     },
@@ -321,7 +327,9 @@
       "avatar": "avatar012",
       "thumb": 120,
       "userRank": "Silver",
+
       "likePosition": "SUP",
+
       "likeHero": "gnar",
       "valid": true
     },
@@ -334,7 +342,9 @@
       "avatar": "avatar011",
       "thumb": 120,
       "userRank": "Silver",
+
       "likePosition": "TOP",
+
       "likeHero": "lulu",
       "valid": true
     },
@@ -347,7 +357,9 @@
       "avatar": "avatar010",
       "thumb": 120,
       "userRank": "Silver",
+
       "likePosition": "JG",
+
       "likeHero": "teemo",
       "valid": true
     },
@@ -360,7 +372,9 @@
       "avatar": "avatar009",
       "thumb": 120,
       "userRank": "Silver",
+
       "likePosition": "MID",
+
       "likeHero": "vex",
       "valid": true
     },
@@ -373,7 +387,9 @@
       "avatar": "avatar008",
       "thumb": 120,
       "userRank": "Silver",
+
       "likePosition": "AD",
+
       "likeHero": "yuumi",
       "valid": true
     },
@@ -386,7 +402,9 @@
       "avatar": "avatar007",
       "thumb": 120,
       "userRank": "Silver",
+
       "likePosition": "SUP",
+
       "likeHero": "zoe",
       "valid": true
     },
@@ -399,7 +417,9 @@
       "avatar": "avatar006",
       "thumb": 120,
       "userRank": "Silver",
+
       "likePosition": "TOP",
+
       "likeHero": "amumu",
       "valid": true
     },
@@ -408,11 +428,13 @@
       "password": "$2a$10$pvH6TRTRil5vfaRig4YqquEfmo6YcTGInzU99jCCIQ2kT2nuzOpPO",
       "username": "aaa",
       "createdAt": 1701498929716,
-      "avatar": "img-avatar-01",
+      "avatar": "img-avatar-05",
       "thumb": 0,
+
       "userRank": "Bronze",
       "likePosition": "JG",
       "likeHero": "vex",
+
       "valid": true,
       "id": 32
     }
@@ -468,6 +490,18 @@
       "userId": 4,
       "friendId": 5,
       "status": 2
+    },
+    {
+      "userId": 32,
+      "friendId": 2,
+      "status": 1,
+      "id": 5
+    },
+    {
+      "userId": 32,
+      "friendId": 5,
+      "status": 1,
+      "id": 6
     }
   ],
   "banLists": [
@@ -579,6 +613,8 @@
         "4.演員地雷勿進"
       ],
       "teamMerberId": [
+
+
         0,
         32,
         18,
@@ -641,7 +677,7 @@
       "teamId": 1,
       "userId": 3,
       "createAt": "2023-10-30",
-      "messageText": "I'm a support main. Can I join your team?"
+      "messageText": "I'm a Support main. Can I join your team?"
     },
     {
       "id": 3,
