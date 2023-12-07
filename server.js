@@ -78,6 +78,30 @@ server.get('/teamsThumb', (req, res, next) => {
   res.status(200).json(sortedTeams)
 
 });
+
+
+server.get('/countThumbs/:id', (req, res) => {
+    
+  const commentedId = req.params.id;
+  let thumbData = [];
+
+  data.comments.filter((item) => {
+    if (item.commentedId === parseInt(commentedId)) {
+      thumbData.push(item);
+    };
+  });
+
+  let totalThumbData = {
+    thumbCount: thumbData.length,
+    thumbData: thumbData
+  };
+  
+  if (thumbData.length !== 0) {
+    res.status(200).json(totalThumbData);
+  } else {
+    res.status(404).json({ message: '沒有人點讚' });
+  }
+});
   
 
 server.use(router)//連接josn-server和express的關鍵詞
