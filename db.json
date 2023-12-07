@@ -282,7 +282,9 @@
       "avatar": "avatar014",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "AD",
+
+      "likePosition": "JG",
+
       "likeHero": "amumu",
       "valid": true
     },
@@ -295,7 +297,9 @@
       "avatar": "avatar015",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "SUP",
+
+      "likePosition": "MID",
+
       "likeHero": "ashe",
       "valid": true
     },
@@ -308,7 +312,9 @@
       "avatar": "avatar013",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "TOP",
+
+      "likePosition": "AD",
+
       "likeHero": "galio",
       "valid": true
     },
@@ -321,7 +327,9 @@
       "avatar": "avatar012",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "JG",
+
+      "likePosition": "SUP",
+
       "likeHero": "gnar",
       "valid": true
     },
@@ -334,7 +342,9 @@
       "avatar": "avatar011",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "MID",
+
+      "likePosition": "TOP",
+
       "likeHero": "lulu",
       "valid": true
     },
@@ -347,7 +357,9 @@
       "avatar": "avatar010",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "AD",
+
+      "likePosition": "JG",
+
       "likeHero": "teemo",
       "valid": true
     },
@@ -360,7 +372,9 @@
       "avatar": "avatar009",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "SUP",
+
+      "likePosition": "MID",
+
       "likeHero": "vex",
       "valid": true
     },
@@ -373,7 +387,9 @@
       "avatar": "avatar008",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "TOP",
+
+      "likePosition": "AD",
+
       "likeHero": "yuumi",
       "valid": true
     },
@@ -386,7 +402,9 @@
       "avatar": "avatar007",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "JG",
+
+      "likePosition": "SUP",
+
       "likeHero": "zoe",
       "valid": true
     },
@@ -399,7 +417,9 @@
       "avatar": "avatar006",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "MID",
+
+      "likePosition": "TOP",
+
       "likeHero": "amumu",
       "valid": true
     },
@@ -410,9 +430,11 @@
       "createdAt": 1701498929716,
       "avatar": "img-avatar-05",
       "thumb": 0,
-      "userRank": "Master",
+
+      "userRank": "Bronze",
       "likePosition": "JG",
-      "likeHero": "aatrox",
+      "likeHero": "vex",
+
       "valid": true,
       "id": 32
     }
@@ -548,7 +570,7 @@
         "2.最好有上大師"
       ],
       "teamMerberId": [
-        0,
+        32,
         2,
         3,
         4,
@@ -570,11 +592,11 @@
       ],
       "createAt": "2023-10-30",
       "teamMerberId": [
-        5,
         6,
         7,
         8,
-        9
+        9,
+        10
       ]
     },
     {
@@ -591,11 +613,13 @@
         "4.演員地雷勿進"
       ],
       "teamMerberId": [
+
+
+        0,
         32,
+        18,
         0,
-        4,
-        0,
-        5
+        20
       ]
     },
     {
@@ -611,11 +635,32 @@
         "3.最近有玩超過10場牌位"
       ],
       "teamMerberId": [
-        1,
-        2,
-        3,
-        4,
-        5
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "teamName": "Team C",
+      "playTime": "2023-12-19 21:00",
+      "rankLimt": "Silver",
+      "createAt": "2023-10-31",
+      "teamNotice": [
+        "1.不要有會說髒話的加入",
+        "2.最好有上大師",
+        "3.最近有玩超過10場牌位",
+        "4.演員地雷勿進"
+      ],
+      "teamMerberId": [
+        26,
+        0,
+        28,
+        0,
+        30
       ]
     }
   ],
