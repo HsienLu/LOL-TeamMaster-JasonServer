@@ -410,8 +410,8 @@
       "createdAt": 1701498929716,
       "avatar": "img-avatar-05",
       "thumb": 0,
-      "userRank": "Iron",
-      "likePosition": "JG",
+      "userRank": "Gold",
+      "likePosition": "AD",
       "likeHero": "teemo",
       "valid": true,
       "id": 32
@@ -535,27 +535,15 @@
     },
     {
       "userId": 32,
-      "friendId": 21,
-      "status": 1,
-      "id": 9
-    },
-    {
-      "userId": 32,
       "friendId": 24,
       "status": 1,
-      "id": 9
+      "id": 10
     },
     {
       "userId": 32,
       "friendId": 27,
       "status": 1,
-      "id": 9
-    },
-    {
-      "userId": 32,
-      "friendId": 30,
-      "status": 1,
-      "id": 9
+      "id": 11
     }
   ],
   "banLists": [
@@ -618,9 +606,14 @@
       "id": 12,
       "userId": 32,
       "friendId": 27
+    },
+    {
+      "userId": 32,
+      "friendId": 30,
+      "id": 13
     }
   ],
-  "teamHistorys": [
+  "teamsHistory": [
     {
       "id": 1,
       "userId": 1,
@@ -677,7 +670,7 @@
         "2.最好有上大師"
       ],
       "teamMerberId": [
-        0,
+        32,
         2,
         32,
         4,
@@ -699,11 +692,11 @@
       ],
       "createAt": "2023-10-30",
       "teamMerberId": [
-        5,
         6,
         7,
         8,
-        32
+        9,
+        10
       ]
     },
     {
@@ -720,11 +713,11 @@
         "4.演員地雷勿進"
       ],
       "teamMerberId": [
+        0,
         32,
+        18,
         0,
-        4,
-        0,
-        5
+        20
       ]
     },
     {
@@ -740,11 +733,32 @@
         "3.最近有玩超過10場牌位"
       ],
       "teamMerberId": [
-        1,
-        32,
-        3,
-        4,
-        5
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "teamName": "Team C",
+      "playTime": "2023-12-19 21:00",
+      "rankLimt": "Silver",
+      "createAt": "2023-10-31",
+      "teamNotice": [
+        "1.不要有會說髒話的加入",
+        "2.最好有上大師",
+        "3.最近有玩超過10場牌位",
+        "4.演員地雷勿進"
+      ],
+      "teamMerberId": [
+        26,
+        0,
+        28,
+        0,
+        30
       ]
     }
   ],
