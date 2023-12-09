@@ -282,7 +282,7 @@
       "avatar": "avatar014",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "AD",
+      "likePosition": "JG",
       "likeHero": "amumu",
       "valid": true
     },
@@ -295,7 +295,7 @@
       "avatar": "avatar015",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "SUP",
+      "likePosition": "MID",
       "likeHero": "ashe",
       "valid": true
     },
@@ -308,7 +308,7 @@
       "avatar": "avatar013",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "TOP",
+      "likePosition": "AD",
       "likeHero": "galio",
       "valid": true
     },
@@ -321,7 +321,7 @@
       "avatar": "avatar012",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "JG",
+      "likePosition": "SUP",
       "likeHero": "gnar",
       "valid": true
     },
@@ -334,7 +334,7 @@
       "avatar": "avatar011",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "MID",
+      "likePosition": "TOP",
       "likeHero": "lulu",
       "valid": true
     },
@@ -347,7 +347,7 @@
       "avatar": "avatar010",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "AD",
+      "likePosition": "JG",
       "likeHero": "teemo",
       "valid": true
     },
@@ -360,7 +360,7 @@
       "avatar": "avatar009",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "SUP",
+      "likePosition": "MID",
       "likeHero": "vex",
       "valid": true
     },
@@ -373,7 +373,7 @@
       "avatar": "avatar008",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "TOP",
+      "likePosition": "AD",
       "likeHero": "yuumi",
       "valid": true
     },
@@ -386,7 +386,7 @@
       "avatar": "avatar007",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "JG",
+      "likePosition": "SUP",
       "likeHero": "zoe",
       "valid": true
     },
@@ -399,7 +399,7 @@
       "avatar": "avatar006",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "MID",
+      "likePosition": "TOP",
       "likeHero": "amumu",
       "valid": true
     },
@@ -410,8 +410,8 @@
       "createdAt": 1701498929716,
       "avatar": "img-avatar-05",
       "thumb": 0,
-      "userRank": "Gold",
-      "likePosition": "AD",
+      "userRank": "Iron",
+      "likePosition": "JG",
       "likeHero": "teemo",
       "valid": true,
       "id": 32
