@@ -4,8 +4,8 @@ const jsonServerAuth = require('json-server-auth'); //使用json-server-auth套�
 const data = require('./db.json'); //引入資料表(我們自己用的)
 const server = jsonServer.create() //jsonServer有一個函式直接幫我們創express的伺服器
 const router = jsonServer.router('db.json') //使用資料來源當作路由(json-server用的)
-server.db = router.db //綁定 json-server 與 auth 的 db.json
 const middlewares = jsonServer.defaults()
+
 /* 是 jsonServer.defaults()提供的跨域、唯獨...的設定方法，用於設置中間件
 ，這些中間件通常用於增加功能或修改 JSON Server 的行為。以下是它的選項說明：
 static: 這是一個指向靜態文件的路徑。如果您想讓 JSON Server 服務靜態文件（例如 HTML、CSS 或 JavaScript 文件），可以使用這個選項。路徑應該是一個包含靜態文件的目錄的絕對或相對路徑。
@@ -78,7 +78,100 @@ server.get('/teamsThumb', (req, res, next) => {
   res.status(200).json(sortedTeams)
 
 });
+
+
+server.get('/countThumbs/:id', (req, res) => {
+  const commentedId = req.params.id;
+  let thumbData = [];
+
+  data.comments.filter((item) => {
+    if (item.commentedId === parseInt(commentedId)) {
+      thumbData.push(item);
+    };
+  });
+
+  if (thumbData.length !== 0) {
+    let totalThumbData = {
+      thumbCount: thumbData.length,
+      thumbData: thumbData
+    };
   
+    res.status(200).json(totalThumbData);
+  } else {
+    res.status(404).json({ message: '沒有人點讚' });
+  }
+});
+
+server.get('/teamsHistorical/:id', (req, res) => {
+  const userId = req.params.id;
+  let countMembers = 0;
+  let teamsHistoricalData = [];
+  let teamsData = [];
+  let teamMembers = [];
+  let membersDetail = [];
+  let insideData = [];
+  let thumbData = [];
+  let totalHistoricalData = [];
+  let dataFormat = {};
+
+  // 尋找歷史組隊紀錄筆數
+  data.teamsHistory.filter((item) => {
+    if (item.userId === parseInt(userId)) {
+      teamsHistoricalData.push(item.teamId);
+    };
+  });
+
+  if (teamsHistoricalData.length !== 0) {
+      // 尋找歷史組隊紀錄隊伍資訊
+      teamsData = data.teams.filter((item) => {
+        return teamsHistoricalData.includes(item.id);
+      });
+
+      // 尋找隊伍資訊內的會員資訊
+    teamsData.forEach((item) => {
+      countMembers = 0;
+      teamMembers = item.teamMerberId;
+
+      teamMembers.forEach((user) => {
+        if (user === 0) {
+          insideData.push("waiting");
+        } else {
+          membersDetail = data.users.find((member) => {
+            return user === member.id;
+          });
+          insideData.push(membersDetail);
+          countMembers++;
+        };
+      });
+        
+      teamMembers = [...insideData];
+      insideData.length = 0;
+
+      // 尋找隊長的按讚筆數
+      data.comments.filter((thumb) => {
+        if (thumb.commentedId === item.userId) {
+          thumbData.push(thumb);
+        };
+      });
+
+      // 製作資料格式
+      dataFormat = {
+        teamName: item.teamName,
+        playTime: item.playTime,
+        userId: item.userId,
+        thumb: thumbData.length,
+        membersDetail: teamMembers,
+        countMembers: countMembers
+        };
+
+        totalHistoricalData.push(dataFormat);
+      });
+          
+        res.status(200).json(totalHistoricalData);
+  } else {
+        res.status(404).json({ message: '沒有歷史組隊紀錄' });
+  }
+}); 
 
 server.use(router)//連接josn-server和express的關鍵詞
 
