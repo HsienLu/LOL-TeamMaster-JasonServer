@@ -9,7 +9,7 @@
       "avatar": "avatar007",
       "thumb": 100,
       "userRank": "Diamond",
-      "likePosition": "TOP",
+      "likePosition": "JG",
       "likeHero": "aatrox",
       "valid": true
     },
@@ -22,7 +22,7 @@
       "avatar": "avatar009",
       "thumb": 75,
       "userRank": "Gold",
-      "likePosition": "JG",
+      "likePosition": "TOP",
       "likeHero": "amumu",
       "valid": true
     },
@@ -48,7 +48,7 @@
       "avatar": "avatar011",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "AD",
+      "likePosition": "TOP",
       "likeHero": "galio",
       "valid": true
     },
@@ -61,7 +61,7 @@
       "avatar": "avatar005",
       "thumb": 120,
       "userRank": "Grandmaster",
-      "likePosition": "SUP",
+      "likePosition": "MID",
       "likeHero": "gnar",
       "valid": true
     },
@@ -100,7 +100,7 @@
       "avatar": "avatar008",
       "thumb": 20,
       "userRank": "Grandmaster",
-      "likePosition": "MID",
+      "likePosition": "SUP",
       "likeHero": "vex",
       "valid": true
     },
@@ -152,7 +152,7 @@
       "avatar": "avatar012",
       "thumb": 120,
       "userRank": "Grandmaster",
-      "likePosition": "JG",
+      "likePosition": "TOP",
       "likeHero": "amumu",
       "valid": true
     },
@@ -217,7 +217,7 @@
       "avatar": "avatar009",
       "thumb": 120,
       "userRank": "Emerald",
-      "likePosition": "JG",
+      "likePosition": "TOP",
       "likeHero": "teemo",
       "valid": true
     },
@@ -256,7 +256,7 @@
       "avatar": "avatar012",
       "thumb": 120,
       "userRank": "Diamond",
-      "likePosition": "SUP",
+      "likePosition": "AD",
       "likeHero": "zoe",
       "valid": true
     },
@@ -282,7 +282,7 @@
       "avatar": "avatar014",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "JG",
+      "likePosition": "AD",
       "likeHero": "amumu",
       "valid": true
     },
@@ -295,7 +295,7 @@
       "avatar": "avatar015",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "MID",
+      "likePosition": "SUP",
       "likeHero": "ashe",
       "valid": true
     },
@@ -399,7 +399,7 @@
       "avatar": "avatar006",
       "thumb": 120,
       "userRank": "Silver",
-      "likePosition": "TOP",
+      "likePosition": "AD",
       "likeHero": "amumu",
       "valid": true
     },
@@ -461,7 +461,7 @@
     {
       "id": 9,
       "userId": 32,
-      "commentedId": 8
+      "commentedId": 22
     },
     {
       "id": 10,
@@ -491,7 +491,7 @@
     {
       "id": 15,
       "userId": 32,
-      "commentedId": 20
+      "commentedId": 24
     }
   ],
   "friendLists": [
@@ -657,17 +657,17 @@
       "id": 1,
       "userId": 1,
       "teamId": 1,
-      "createAt": "2023-10-29"
+      "createAt": "2023-10-30"
     },
     {
       "id": 2,
-      "userId": 2,
+      "userId": 5,
       "teamId": 1,
       "createAt": "2023-10-30"
     },
     {
       "id": 3,
-      "userId": 3,
+      "userId": 4,
       "teamId": 2,
       "createAt": "2023-10-31"
     },
@@ -747,9 +747,9 @@
       "teamMerberId": [
         2,
         32,
-        30,
-        4,
-        5
+        5,
+        9,
+        30
       ]
     },
     {
@@ -767,11 +767,11 @@
       ],
       "createAt": "2023-10-30",
       "teamMerberId": [
+        6,
+        1,
         5,
-        7,
-        8,
         9,
-        6
+        8
       ]
     },
     {
@@ -791,8 +791,8 @@
         4,
         32,
         18,
-        10,
-        20
+        20,
+        10
       ]
     },
     {
@@ -808,11 +808,11 @@
         "3.最近有玩超過10場牌位"
       ],
       "teamMerberId": [
-        3,
         2,
-        23,
         1,
-        5
+        3,
+        9,
+        23
       ]
     },
     {
@@ -852,8 +852,8 @@
         21,
         27,
         0,
-        0,
-        14
+        14,
+        0
       ]
     },
     {
@@ -870,10 +870,10 @@
       ],
       "teamMerberId": [
         12,
-        14,
-        23,
         32,
-        27
+        28,
+        14,
+        23
       ]
     },
     {
@@ -891,9 +891,9 @@
       "teamMerberId": [
         11,
         0,
-        15,
+        28,
         0,
-        30
+        15
       ]
     },
     {
@@ -909,8 +909,8 @@
         "3.最近有玩超過10場牌位"
       ],
       "teamMerberId": [
+        0,
         32,
-        10,
         28,
         0,
         30
@@ -930,10 +930,10 @@
         "4.演員地雷勿進"
       ],
       "teamMerberId": [
-        20,
+        16,
         32,
         0,
-        14,
+        20,
         0
       ]
     },
@@ -952,10 +952,10 @@
       ],
       "teamMerberId": [
         6,
-        22,
+        32,
         18,
-        21,
-        32
+        22,
+        23
       ]
     },
     {
@@ -972,11 +972,11 @@
         "4.演員地雷勿進"
       ],
       "teamMerberId": [
-        9,
+        26,
+        27,
         13,
-        22,
-        31,
-        20
+        9,
+        25
       ]
     },
     {
@@ -992,11 +992,11 @@
         "3.演員地雷勿進"
       ],
       "teamMerberId": [
-        20,
-        10,
+        12,
+        32,
         18,
-        24,
-        32
+        20,
+        10
       ]
     },
     {
@@ -1012,11 +1012,11 @@
         "3.演員地雷勿進"
       ],
       "teamMerberId": [
-        32,
-        10,
-        24,
         16,
-        8
+        32,
+        18,
+        24,
+        10
       ]
     },
     {
@@ -1034,9 +1034,9 @@
       ],
       "teamMerberId": [
         17,
-        6,
         32,
         18,
+        29,
         30
       ]
     },
@@ -1056,7 +1056,7 @@
         2,
         32,
         28,
-        12,
+        22,
         30
       ]
     },
@@ -1075,10 +1075,10 @@
       ],
       "teamMerberId": [
         16,
-        6,
         32,
         18,
-        30
+        9,
+        23
       ]
     },
     {
@@ -1097,7 +1097,7 @@
         2,
         32,
         28,
-        12,
+        31,
         30
       ]
     }
@@ -1106,28 +1106,28 @@
     {
       "id": 1,
       "teamId": 1,
-      "userId": 2,
-      "createAt": "2023-10-29",
+      "userId": 5,
+      "createAt": "2023-10-30",
       "messageText": "Hello, I'm interested in joining your team."
     },
     {
       "id": 2,
       "teamId": 1,
-      "userId": 3,
+      "userId": 8,
       "createAt": "2023-10-30",
       "messageText": "I'm a Support main. Can I join your team?"
     },
     {
       "id": 3,
       "teamId": 2,
-      "userId": 1,
+      "userId": 18,
       "createAt": "2023-10-31",
       "messageText": "Let's practice together."
     },
     {
       "id": 4,
       "teamId": 6,
-      "userId": 12,
+      "userId": 14,
       "createAt": "2023-11-3",
       "messageText": "大家安安～"
     },
@@ -1147,8 +1147,8 @@
     },
     {
       "id": 7,
-      "teamId": 10,
-      "userId": 21,
+      "teamId": 9,
+      "userId": 20,
       "createAt": "2023-11-28",
       "messageText": "嗨～已經加入囉！"
     },
@@ -1169,7 +1169,7 @@
     {
       "id": 10,
       "teamId": 13,
-      "userId": 8,
+      "userId": 10,
       "createAt": "2023-11-26",
       "messageText": "大大偷換團名喔！"
     }
@@ -1213,7 +1213,7 @@
     {
       "id": 6,
       "teamId": 5,
-      "userId": 21,
+      "userId": 27,
       "recommendId": 13,
       "status": 0
     },
@@ -1228,7 +1228,7 @@
       "id": 8,
       "teamId": 10,
       "userId": 6,
-      "recommendId": 21,
+      "recommendId": 22,
       "status": 2
     },
     {
@@ -1255,7 +1255,7 @@
     {
       "id": 12,
       "teamId": 14,
-      "userId": 17,
+      "userId": 29,
       "recommendId": 15,
       "status": 0
     }
